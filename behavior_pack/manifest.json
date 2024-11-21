@@ -1,27 +1,24 @@
 {
-  {
-    "format_version": 1,
-    "header": {
-      "description": "ビヘイビアパック",
-      "name": "ビヘイビアパック",
-      "uuid":"aefbd316-3164-409f-a89c-d31466588933",
-      "version": [1, 0, 0],
-      "min_engine_version": [1, 21, 20]
-    },
-    "modules":
-      [
-        {
-          "description": "サンプルのビヘイビアパック",
-            "type": "data",
-            "uuid": "acfbd316-3164-409f-a89c-d31466588934",
-            "version": [1, 0, 0]
-        }
-      ],
-    "dependencies": [
-      {
-       "uuid":"adkbd316-3164-409f-a89c-d31466588931",
-        "version":[1,0,0]
-      }
-   ]
-　}
+  "format_version": 2,
+  "header": {
+    "name": "Dimensions",
+    "description": "ディメンション！",
+    "version": [1, 0, 0],
+    "uuid": "2e05565d-e29e-4e37-9921-2ea6c0c3c06a",
+    "platform_locked": true,
+    "min_engine_version": [1, 21, 44]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "description": "behavior module",
+      "version": [1, 0, 0],
+      "uuid": "51d3979e-effe-436a-880e-f51484fe9644"
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "TokaTools-Manifest-Generator": ["1.8.0"]
+    }
+  }
 }
