@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Dimensions",
+    "description": "ディメンション！",
+    "version": [1, 0, 0],
+    "uuid": "5b6e1a54-1f08-4753-9ac9-e282cefee547",
+    "platform_locked": true,
+    "min_engine_version": [1, 21, 44]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "Dimensions resources module",
+      "version": [1, 0, 0],
+      "uuid": "08c85c75-4fe0-4bfe-b15c-a9bb55abc036"
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "TokaTools-Manifest-Generator": ["1.8.0"]
+    }
+  }
+}
