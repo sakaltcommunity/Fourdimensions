@@ -1,0 +1,26 @@
+
+{
+    "format_version": 1,
+    "header": {
+      "description": "ビヘイビアパック",
+      "name": "ビヘイビアパック",
+      "uuid":"aefbd316-3164-409f-a89c-d31466588933",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 21, 20]
+    },
+    "modules":
+      [
+        {
+          "description": "サンプルのビヘイビアパック",
+            "type": "data",
+            "uuid": "acfbd316-3164-409f-a89c-d31466588934",
+            "version": [1, 0, 0]
+        }
+      ],
+    "dependencies": [
+      {
+       "uuid":"adkbd316-3164-409f-a89c-d31466588931",
+        "version":[1,0,0]
+      }
+   ]
+  }
